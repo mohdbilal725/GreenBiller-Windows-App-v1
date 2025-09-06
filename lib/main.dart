@@ -87,7 +87,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'GreenBiller',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.login,
+      initialRoute: AppRoutes.adminDashboard,
       getPages: [
         GetPage(
           name: AppRoutes.login,
